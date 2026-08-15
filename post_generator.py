@@ -12,7 +12,7 @@ def get_length_str(length):
         return "1 to 5 lines"
     if length == "Medium":
         return "6 to 15 lines"
-    if length == "Short":
+    if length == "Long":
         return "15 to 35 lines"
 
 def get_prompt (length ,language, tag):
